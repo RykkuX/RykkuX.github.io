@@ -5,8 +5,8 @@ I love creating and exploring! A passionate **problem solver** and **builder** a
 
 🎓 **Bachelor of Science in Computer Science** graduate from **Iloilo Science and Technology University**.  
 
-🎮 When I'm not coding, you can find me playing video games Riot Games I'm looking at you👀 or diving into the thrilling worlds of sci-fi films.  
-I heckin love anime or animated films. Arcane is my favorite.
+🎮 When I'm not coding, you can find me playing video games Riot Games 👊 I'm looking at you 👀 or diving into the thrilling worlds of sci-fi films.  
+I heckin love anime or animated films. Arcane is my favorite. 🚀
 ---
 
 ## 🌟 **About Me**  
@@ -31,6 +31,8 @@ I heckin love anime or animated films. Arcane is my favorite.
 
 ### **CMS & Platforms**  
 - WordPress  
+- Shopify
+- Wix  
 
 ---
 
