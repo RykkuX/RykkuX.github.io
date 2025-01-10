@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Portfolio</title>
+		<!-- Google Fonts: Roboto -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./output.css" />
+	</head>
+	<body class="bg-mainbg opacity-85 font-roboto m-0 p-0">
+		<!-- Header -->
+		<div
+			id="header"
+			class="text-s text-white flex justify-between font-roboto px-10 pt-10"
+		>
+			<nav class="flex sm:gap-20 font-bold">
+				<a href="#home-page" class="text-4xl">LS</a>
+				<a href="#about-page">ABOUT ME</a>
+				<a href="#projects-page">PROJECTS</a>
+				<a href="#experience-page">EXPERIENCE</a>
+				<a href="#services-page">SERVICES</a>
+			</nav>
+			<div class="flex gap-2">
+				<a
+					href="#contact-page"
+					class="text-m flex-items-center font-extralight underline underline-weight-extralight underline-offset-4"
+					>CONTACT ME</a
+				>
+				<span
+					class="icon-[lets-icons--send-light]"
+					style="width: 24px; height: 24px; color: #fff"
+				></span>
+			</div>
+		</div>
+
+		<!-- Main Content -->
+		<div id="main-content" class="flex flex-col text-white ml-20">
+			<div class="ml-20">
+				<!-- Margin Left Additional -->
+				<!-- Home -->
+				<div id="home-page" class="flex flex-col">
+					<div class="font-bold text-5xl mt-20">Hi, I'm</div>
+					<div class="text-8xl mt-10">LLYCO SAUZA |</div>
+					<h2 class="text-xl max w-2/3 my-5 z">
+						Computer Scientist | Software Engineer | Data Analyst | DevOps
+						Engineer
+					</h2>
+					<div class="flex mt-4 gap-3 mt-10 pt-10">
+						<span
+							class="icon-[mdi--github]"
+							style="width: 48px; height: 48px; color: #fff"
+						></span>
+						<span
+							class="icon-[mdi--linkedin]"
+							style="width: 48px; height: 48px; color: #fff"
+						></span>
+						<span
+							class="icon-[ic--baseline-facebook]"
+							style="width: 48px; height: 48px; color: #fff"
+						></span>
+						<span
+							class="icon-[material-symbols--mail-outline]"
+							style="width: 48px; height: 48px; color: #fff"
+						></span>
+					</div>
+					<h3 class="text-lg text-gray-300 mt-5 w-2/3 mt-5 font-bold">
+						I love creating and exploring 🚀. A Computer Science Graduate 🎓 and
+						I like playing video games and watching Sci-fi films 🎥
+					</h3>
+				</div>
+
+				<!-- About -->
+				<div id="about-page" class="flex flex-col">
+					<div id="about-me-title" class="font-bold text-5xl mt-20">
+						About Me!
+					</div>
+					<div id="about-me-content" class="mt-10">
+						I’m a Bachelor of Science in Computer Science graduate from Iloilo
+						Science and Technology University. 🎓 An explorer and problem solver
+						at heart. 🌍 Building stuff has always been my passion, and I aspire
+						to learn new things while gaining various experiences. 🚀📚✨
+					</div>
+					<div id="skills-title" class="font-bold text-5xl mt-20">Skills!</div>
+					<div id="skills-content" class="mt-10">
+						<ul class="flex flex-wrap gap-5">
+							<li>Python</li>
+							<li>Java</li>
+							<li>JavaScript</li>
+							<li>C</li>
+							<li>C#</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>SQL</li>
+							<li>MongoDb</li>
+							<li>PostgreSQL</li>
+							<li>Firebase</li>
+							<li>AWS</li>
+							<li>GitHub</li>
+							<li>Linux</li>
+							<li>Wordpress</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Projects -->
+				<div id="projects-page" class="flex flex-col">
+					<div id="projects-title" class="font-bold text-5xl mt-20">
+						Projects
+					</div>
+					<div id="project-card" class="mt-10">
+						<div id="projects-content">
+							<div id="project-role">Project Lead | Full Stack Developer</div>
+							<div id="project-name">
+								Abtech: Emergency Response Mobile Application
+							</div>
+							<div id="project-tech-stack">React Native | Firebase</div>
+							<div id="project-description">
+								Assembled and lead a team of 5 developers to create a Mobile App
+								for Quick Response for Emergency. This project won as a Finalist
+								for a National Hackthon Hack4Health.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Experience -->
+				<div id="experience-page" class="flex flex-col">
+					<div id="experience-title" class="font-bold text-5xl mt-20">
+						Notable Experiences and Awards
+					</div>
+					<div id="experience-content" class="mt-10">
+						<ul>
+							<li>Student Startup of the Year Awardee</li>
+							<li>
+								ISATECH Society: Technology Startup Organizer - President -
+								2024-25
+							</li>
+							<li>Hack4Health National Hackathon: Finalist - 2024</li>
+							<li>Hack4Gov National Hackathon: Finalist - 2024</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Services -->
+				<div id="services-page" class="flex flex-col">
+					<div id="services-title" class="font-bold text-5xl mt-20">
+						Services
+					</div>
+					<div id="services-content">
+						<ul>
+							<li>DevOps</li>
+							<li>Web Development</li>
+							<li>Mobile App Development</li>
+							<li>UI/UX Design</li>
+							<li>Data Analysis</li>
+							<li>AI / Machine Learning Integration</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Contact -->
+				<div
+					id="contact-page"
+					class="flex flex-col items-center text-center mt-20 mr-30 font-roboto"
+				>
+					<div class="text-8xl font-light">Let's Build</div>
+					<div class="flex flex-col mt-5">
+						<div class="text-8xl font-light">Your Vision!</div>
+						<div class="text-3xl font-light flex place-self-end mt-4">
+							or have a coffee.
+						</div>
+					</div>
+					<a
+						href="mailto:llycosauza@gmail.com"
+						class="mt-20 text-3xl font-extralight italic"
+					>
+						Get in Touch!
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div
+			id="footer"
+			class="bg-footerbg text-footercolor w-full m-0 px-10 flex flex-row justify-between mt-20"
+		>
+			<div class="flex flex-col sm:flex-row justify-between items-center">
+				<a href="#home-page" class="text-xl font-bold flex flex-col">
+					<span>LLYCO</span>
+					<span>SAUZA</span>
+				</a>
+			</div>
+			<div class="flex flex-col justify-self-center ml-40">
+				<div
+					class="flex flex-col sm:flex-row items-center text-l my-5 pt-10 font-bold sm:mt-0 gap-6"
+				>
+					<a href="#home-page" class="hover:underline">HOME</a>
+					<a href="#projects-page" class="hover:underline">PROJECTS</a>
+					<a href="#services-page" class="hover:underline">SERVICES</a>
+					<a href="#about-page" class="hover:underline">ABOUT ME</a>
+					<a href="#contact-page" class="hover:underline">CONTACT</a>
+				</div>
+				<span class="mt-2 place-self-center">&copy; 2025 LLYCO SAUZA</span>
+			</div>
+			<div class="flex flex-col justify-center">
+				<div
+					class="flex flex-col sm:flex-row justify-between items-center color-black"
+				>
+					<div class="flex gap-5">
+						<a
+							href="https://github.com/RykkuX"
+							class="icon-[mdi--github]"
+							style="width: 48px; height: 48px"
+						></a>
+						<a
+							href="https://www.linkedin.com/in/llyco-sauza-654151321/"
+							class="icon-[mdi--linkedin]"
+							style="width: 48px; height: 48px"
+						></a>
+						<a
+							href="https://www.facebook.com/LikesXauza"
+							class="icon-[ic--baseline-facebook]"
+							style="width: 48px; height: 48px"
+						></a>
+						<a
+							href="mailto:llycosauza@gmail.com"
+							class="icon-[material-symbols--mail-outline]"
+							style="width: 48px; height: 48px"
+						></a>
+					</div>
+				</div>
+				<div class="text-sm mt-2 place-self-center">
+					llycosauza@gmail.com | 09283397248
+				</div>
+			</div>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
