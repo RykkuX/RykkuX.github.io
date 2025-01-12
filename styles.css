@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    /* Default color (gray-500) */
+}
+
+.hover-icon:hover {
+    transform: scale(1.2);
+    /* Enlarge the icon slightly */
+    color: #3b82f6;
+    /* Change color to blue-500 */
+}
