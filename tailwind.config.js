@@ -13,6 +13,7 @@ module.exports = {
         textColor: "#ffffff",
         footerbg: "#dededf",
         footercolor: "#33363F",
+        pfpcolor: "#68a4f1",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"], // Add Roboto as a font option

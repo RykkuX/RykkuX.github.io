@@ -11,14 +11,16 @@
 		/>
 		<link rel="stylesheet" href="./output.css" />
 	</head>
-	<body class="bg-mainbg opacity-85 font-roboto m-0 p-0">
+	<body
+		class="bg-gradient-to-r from-mainbg to-slate-950 opacity-85 font-roboto m-0 p-0"
+	>
 		<!-- Header -->
 		<div
 			id="header"
 			class="text-s text-white flex justify-between font-roboto px-10 pt-10"
 		>
 			<nav class="flex sm:gap-20 font-bold">
-				<a href="#home-page" class="text-4xl">LS</a>
+				<a href="#header	" class="text-4xl">LS</a>
 				<a href="#about-page">ABOUT ME</a>
 				<a href="#projects-page">PROJECTS</a>
 				<a href="#experience-page">EXPERIENCE</a>
@@ -36,7 +38,7 @@
 				></span>
 			</div>
 		</div>
-
+		<div class="border mt-4 mx-10"></div>
 		<!-- Main Content -->
 		<div id="main-content" class="flex flex-col text-white ml-20">
 			<div class="ml-20">
@@ -67,42 +69,193 @@
 							style="width: 48px; height: 48px; color: #fff"
 						></span>
 					</div>
-					<h3 class="text-lg text-gray-300 mt-5 w-2/3 mt-5 font-bold">
+					<h3 class="text-lg text-gray-300 my-5 w-2/3 mt-5 font-bold">
 						I love creating and exploring 🚀. A Computer Science Graduate 🎓 and
 						I like playing video games and watching Sci-fi films 🎥
 					</h3>
 				</div>
-
 				<!-- About -->
-				<div id="about-page" class="flex flex-col">
-					<div id="about-me-title" class="font-bold text-5xl mt-20">
-						About Me!
+				<div id="about-page" class="flex mt-10 mr-30">
+					<!-- Left -->
+					<div class="w-full pr-30 sm:w-1/3 lg:w-1/2 mt-10 content-end">
+						<div id="about-me-title" class="font-bold text-3xl relative">
+							About Me!
+							<div class="absolute bg-blue-500 h-1 w-16 mt-2"></div>
+						</div>
+						<div id="about-me-content" class="mt-5 text-gray-300 shadow-md">
+							I’m a
+							<span class="text-blue-500 font-semibold"
+								>Bachelor of Science in Computer Science</span
+							>
+							graduate from
+							<span class="text-blue-500 font-semibold"
+								>Iloilo Science and Technology University</span
+							>. 🎓 An explorer and problem solver at heart. 🌍 Building stuff
+							has always been my passion, and I aspire to learn new things while
+							gaining various experiences. 🚀📚✨
+						</div>
+						<!-- Experience -->
+						<div id="experience-page" class="flex flex-col mt-10">
+							<div id="experience-title" class="font-bold text-3xl relative">
+								Notable Experiences and Awards
+								<div class="absolute bg-blue-500 h-1 w-16 mt-2"></div>
+							</div>
+							<div id="experience-content" class="mt-5 text-gray-300 shadow-md">
+								<ul class="list-disc ml-5">
+									<li>
+										<span class="text-blue-500 font-semibold"
+											>Student Startup of the Year</span
+										>
+										Awardee
+									</li>
+									<li>
+										<span class="text-blue-500 font-semibold"
+											>ISATECH Society</span
+										>: Technology Startup Organizer -
+										<span class="text-blue-500 font-semibold"
+											>President (2024-25)</span
+										>
+									</li>
+									<li>
+										<span class="text-blue-500 font-semibold"
+											>Hack4Health National Hackathon</span
+										>: Finalist - 2024
+									</li>
+									<li>
+										<span class="text-blue-500 font-semibold"
+											>Hack4Gov National Hackathon</span
+										>: Finalist - 2024
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div id="about-me-content" class="mt-10">
-						I’m a Bachelor of Science in Computer Science graduate from Iloilo
-						Science and Technology University. 🎓 An explorer and problem solver
-						at heart. 🌍 Building stuff has always been my passion, and I aspire
-						to learn new things while gaining various experiences. 🚀📚✨
-					</div>
-					<div id="skills-title" class="font-bold text-5xl mt-20">Skills!</div>
-					<div id="skills-content" class="mt-10">
-						<ul class="flex flex-wrap gap-5">
-							<li>Python</li>
-							<li>Java</li>
-							<li>JavaScript</li>
-							<li>C</li>
-							<li>C#</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>SQL</li>
-							<li>MongoDb</li>
-							<li>PostgreSQL</li>
-							<li>Firebase</li>
-							<li>AWS</li>
-							<li>GitHub</li>
-							<li>Linux</li>
-							<li>Wordpress</li>
-						</ul>
+					<!-- Right -->
+					<div
+						class="w-full sm:w-2/3 lg:w-1/2 flex flex-col text-left self-end relative"
+					>
+						<div
+							class="rounded-full flex pr-7 bg-gradient-to-t from-transparent from-20% via-slate-900 via-50% to-transparent to-80% drop-shadow-lg"
+						>
+							<div class="w-full relative">
+								<img
+									src="photos\monopfp.png"
+									alt="Profile Picture"
+									class="self-centers"
+								/>
+							</div>
+						</div>
+						<!-- Skills & Technologies -->
+						<div
+							id="skills-technologies"
+							class="absolute bottom-0 left-0 w-full py-5 text-center rounded-b-lg z-10"
+						>
+							<h2
+								class="font-bold text-4xl mb-5 text-white relative backdrop-blur-sm"
+							>
+								Skills & Technologies
+								<div class="absolute bg-blue-500 h-1 w-32 mt-2"></div>
+							</h2>
+							<!-- Skills Badges -->
+							<div class="flex flex-wrap gap-2 backdrop-blur-sm">
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									Python
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									Java
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									JavaScript
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									C
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									C#
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									HTML5
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									CSS3
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									React
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									React Native
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									SQL
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									MongoDB
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									PostgreSQL
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									Firebase
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									AWS
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									GitHub
+								</a>
+								<a
+									href="#"
+									class="bg-transparent text-blue-500 text-sm font-semibold py-1 px-3 rounded border border-blue-500 shadow-md transition-all duration-300 hover:bg-blue-700 hover:text-white"
+								>
+									Linux
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -111,37 +264,219 @@
 					<div id="projects-title" class="font-bold text-5xl mt-20">
 						Projects
 					</div>
-					<div id="project-card" class="mt-10">
-						<div id="projects-content">
-							<div id="project-role">Project Lead | Full Stack Developer</div>
-							<div id="project-name">
-								Abtech: Emergency Response Mobile Application
+					<div id="projects-content" class="mt-10 grid gap-10">
+						<!-- Abtech Project -->
+						<div
+							class="p-6 rounded-lg flex flex-col sm:flex-row box-border mr-30"
+						>
+							<!-- Left: Text Content -->
+							<div class="flex-1 ml-5">
+								<div class="text-sm text-gray-400 mb-2 ml">
+									Full Stack Developer | Project Lead
+								</div>
+								<div class="text-2xl font-bold text-white mb-4">
+									Abtech: Quick Emergency Response Mobile App
+								</div>
+								<div class="flex gap-2 mb-4">
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										JavaScript
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										React Native
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										Firebase
+									</span>
+								</div>
+								<div class="text-gray-300 text-xl w-2/3 ml">
+									Assembled and led a team of 5 developers to create a mobile
+									app for quick response to emergencies. This product is my
+									Startup Project and is currently in development. This project
+									was a finalist in the National Hackathon Hack4Health.
+								</div>
+								<div
+									class="bg-blue-700 border-solid border-4 flex justify-centers items-center mt-6 sm:mt-10 w-36 h-10 flex-shrink-0 drop-shadow-lg"
+								>
+									<a
+										href=""
+										target="_blank"
+										class="text-white hover:underline font-bold py-5 px-5"
+										>View Project</a
+									>
+								</div>
 							</div>
-							<div id="project-tech-stack">React Native | Firebase</div>
-							<div id="project-description">
-								Assembled and lead a team of 5 developers to create a Mobile App
-								for Quick Response for Emergency. This project won as a Finalist
-								for a National Hackthon Hack4Health.
+							<!-- Right: Placeholder for Image -->
+							<div
+								class="bg-gray-400 w-40 h-40 sm:w-1/3 sm:h-80 rounded-lg mt-6 sm:mt-3 sm:ml-6 flex-shrink-0 drop-shadow-lg"
+							>
+								<!-- Placeholder for Project Image -->
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<!-- Experience -->
-				<div id="experience-page" class="flex flex-col">
-					<div id="experience-title" class="font-bold text-5xl mt-20">
-						Notable Experiences and Awards
-					</div>
-					<div id="experience-content" class="mt-10">
-						<ul>
-							<li>Student Startup of the Year Awardee</li>
-							<li>
-								ISATECH Society: Technology Startup Organizer - President -
-								2024-25
-							</li>
-							<li>Hack4Health National Hackathon: Finalist - 2024</li>
-							<li>Hack4Gov National Hackathon: Finalist - 2024</li>
-						</ul>
+						<!-- Duplicate this structure for additional project cards -->
+						<!-- Xcess Project -->
+						<div
+							class="p-6 rounded-lg flex flex-col sm:flex-row box-border mr-30"
+						>
+							<!-- Left: Text Content -->
+							<div class="flex-1 ml-5">
+								<div class="text-sm text-gray-400 mb-2 ml">
+									Full Stack Developer | Project Lead
+								</div>
+								<div class="text-2xl font-bold text-white mb-4">
+									Xcess: Home Networking VPN Mobile App
+								</div>
+								<div class="flex gap-2 mb-4">
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										Java / Kotlin
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										GO
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										Linux
+									</span>
+								</div>
+								<div class="text-gray-300 text-xl w-2/3 ml">
+									This my thesis project for my Bachelor of Science in Computer
+									Science. I've developed this app in order to connect all of
+									your devices wherever you are add efficiently and reduce the
+									mobile data consumption. This project is developed using
+									WireGuard Protocol Kotlin and GO.
+								</div>
+								<div
+									class="bg-blue-700 border-solid border-4 flex justify-centers items-center mt-6 sm:mt-10 w-36 h-10 flex-shrink-0 drop-shadow-lg"
+								>
+									<a
+										href=""
+										target="_blank"
+										class="text-white hover:underline font-bold py-5 px-5"
+										>View Project</a
+									>
+								</div>
+							</div>
+							<!-- Right: Placeholder for Image -->
+							<div
+								class="bg-gray-400 w-40 h-40 sm:w-1/3 sm:h-80 rounded-lg mt-6 sm:mt-3 sm:ml-6 flex-shrink-0 drop-shadow-lg"
+							>
+								<!-- Placeholder for Project Image -->
+							</div>
+						</div>
+						<div
+							class="p-6 rounded-lg flex flex-col sm:flex-row box-border mr-30"
+						>
+							<!-- Left: Text Content -->
+							<div class="flex-1 ml-5">
+								<div class="text-sm text-gray-400 mb-2 ml">
+									Full Stack Developer | Project Lead
+								</div>
+								<div class="text-2xl font-bold text-white mb-4">
+									Abtech: Quick Emergency Response Mobile App
+								</div>
+								<div class="flex gap-2 mb-4">
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										JavaScript
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										React Native
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										Firebase
+									</span>
+								</div>
+								<div class="text-gray-300 text-xl w-2/3 ml">
+									Assembled and led a team of 5 developers to create a mobile
+									app for quick response to emergencies. This product is my
+									Startup Project and is currently in development. This project
+									was a finalist in the National Hackathon Hack4Health.
+								</div>
+								<div
+									class="bg-blue-700 border-solid border-4 flex justify-centers items-center mt-6 sm:mt-10 w-36 h-10 flex-shrink-0 drop-shadow-lg"
+								>
+									<a
+										href=""
+										target="_blank"
+										class="text-white hover:underline font-bold py-5 px-5"
+										>View Project</a
+									>
+								</div>
+							</div>
+							<!-- Right: Placeholder for Image -->
+							<div
+								class="bg-gray-400 w-40 h-40 sm:w-1/3 sm:h-80 rounded-lg mt-6 sm:mt-3 sm:ml-6 flex-shrink-0 drop-shadow-lg"
+							>
+								<!-- Placeholder for Project Image -->
+							</div>
+						</div>
+						<div
+							class="p-6 rounded-lg flex flex-col sm:flex-row box-border mr-30"
+						>
+							<!-- Left: Text Content -->
+							<div class="flex-1 ml-5">
+								<div class="text-sm text-gray-400 mb-2 ml">
+									Full Stack Developer | Project Lead
+								</div>
+								<div class="text-2xl font-bold text-white mb-4">
+									Abtech: Quick Emergency Response Mobile App
+								</div>
+								<div class="flex gap-2 mb-4">
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										JavaScript
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										React Native
+									</span>
+									<span
+										class="bg-blue-700 text-white text-s font-semibold py-1 px-3 rounded"
+									>
+										Firebase
+									</span>
+								</div>
+								<div class="text-gray-300 text-xl w-2/3 ml">
+									Assembled and led a team of 5 developers to create a mobile
+									app for quick response to emergencies. This product is my
+									Startup Project and is currently in development. This project
+									was a finalist in the National Hackathon Hack4Health.
+								</div>
+								<div
+									class="bg-blue-700 border-solid border-4 flex justify-centers items-center mt-6 sm:mt-10 w-36 h-10 flex-shrink-0 drop-shadow-lg"
+								>
+									<a
+										href=""
+										target="_blank"
+										class="text-white hover:underline font-bold py-5 px-5"
+										>View Project</a
+									>
+								</div>
+							</div>
+							<!-- Right: Placeholder for Image -->
+							<div
+								class="bg-gray-400 w-40 h-40 sm:w-1/3 sm:h-80 rounded-lg mt-6 sm:mt-3 sm:ml-6 flex-shrink-0 drop-shadow-lg"
+							>
+								<!-- Placeholder for Project Image -->
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -199,7 +534,7 @@
 				<div
 					class="flex flex-col sm:flex-row items-center text-l my-5 pt-10 font-bold sm:mt-0 gap-6"
 				>
-					<a href="#home-page" class="hover:underline">HOME</a>
+					<a href="#header" class="hover:underline">HOME</a>
 					<a href="#projects-page" class="hover:underline">PROJECTS</a>
 					<a href="#services-page" class="hover:underline">SERVICES</a>
 					<a href="#about-page" class="hover:underline">ABOUT ME</a>
